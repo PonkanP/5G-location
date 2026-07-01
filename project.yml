@@ -1,4 +1,4 @@
-name: HMG5G
+name: Mobile5GLocator
 options:
   bundleIdPrefix: com.yourname
   deploymentTarget:
@@ -6,7 +6,7 @@ options:
   xcodeVersion: "15"
 
 targets:
-  HMG5G:
+  Mobile5GLocator:
     type: application
     platform: iOS
     deploymentTarget: "17.0"
