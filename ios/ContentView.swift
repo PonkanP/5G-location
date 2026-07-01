@@ -283,10 +283,9 @@ struct InfoCard<Content: View>: View {
                 .textCase(.uppercase)
                 .lineLimit(1)
             content()
-            Spacer(minLength: 0)
         }
         .padding(8)
-        .frame(maxWidth: .infinity * flex)
+        .frame(maxWidth: .infinity, alignment: .topLeading)
         .background(Color(.secondarySystemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 10))
     }
